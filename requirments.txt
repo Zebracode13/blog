@@ -1,0 +1,5 @@
+Django==3.2.8
+django-allauth==0.44.0
+django-bootstrap4==3.0.1
+django-braces==1.14.0
+django-cors-headers==3.7.0

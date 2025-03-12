@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+    <div class="jumbotron">
+    <h1> Please create an acount below!</h1>
+        <form>
+            {{forms.as_p}}
+            {% csrf_token %}
+            <input type="button" value="submit">
+        </form>
+    </div>
+
+{% endblock bodyblock %}
+
+
